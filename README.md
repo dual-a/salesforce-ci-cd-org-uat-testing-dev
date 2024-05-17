@@ -4,6 +4,17 @@ This is a sample sfdx project that showcases how to use Github Actions for CI/CD
 
 Check out the `pr-develop-branch.yml` file under `.github/workflows` for a detailed explanation of the operations that are being automated.
 
+# [!TIP] Changes compared to forked repository
+
+I've made some changes to the forked repository. I've taken a different sandbox strategy that I'm more familiar with compared to the one in the original workflow. My sandbox strategy uses the following flow:
+
+1. Production
+2. UAT/Staging
+3. Testing/QA
+4. Individual developer sandboxes
+
+Updated some of the .yml files to reflect the latest github actions, sfdx commands and plugin commands. This works better in my opinion.
+
 ## High level flow
 
 **1-** We have a master branch that represents the metadata we are tracking. We also have a uat (or staging) branch that represents the uat enviroment which is how we're modeling our sandbox strategy.
