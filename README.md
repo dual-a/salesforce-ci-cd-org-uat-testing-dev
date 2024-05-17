@@ -4,7 +4,7 @@ This is a sample sfdx project that showcases how to use Github Actions for CI/CD
 
 Check out the `pr-develop-branch.yml` file under `.github/workflows` for a detailed explanation of the operations that are being automated.
 
-#  Changes compared to forked repository
+#  Personal changes compared to forked repository
 
 > [!IMPORTANT]
 > I've made some changes to the forked repository. I've taken a different sandbox strategy that I'm more familiar with compared to the one in the original workflow. My sandbox strategy uses the following flow:
