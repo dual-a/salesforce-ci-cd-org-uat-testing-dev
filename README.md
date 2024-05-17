@@ -32,7 +32,7 @@ Scan the apex code for any vulnerabilities or code smells. Log any issues direct
 
 **10-** A pull request is created from the testing branch to the UAT branch, for UAT testing or staging.
 
-**10-** At the end of the sprint, the UAT branch is merged into master, and this triggers a production deployment. 
+**11-** At the end of the sprint, the UAT branch is merged into master, and this triggers a production deployment. 
 
 
 ## Deploying delta changes
